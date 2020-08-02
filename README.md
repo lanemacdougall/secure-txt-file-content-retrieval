@@ -3,8 +3,8 @@
 
 ## Overview
 
-### Note: This is an adaptation of a homework project assigned in Texas Tech University's Secure Software Engineering course (CS 5332). 
-### *See "Description of Original Project" for more details* 
+Note: This is an adaptation of a homework project assigned in Texas Tech University's Secure Software Engineering course (CS 5332). 
+*See "Description of Original Project" for more details* 
 
 Secure Text File Content Retrieval is a multi-threaded Java program implementing secure, synchronous communication between a Sender object and a Receiver object through a message buffer and response connector (MBRC) object, allowing for the secure retrieval of text file contents.
 
@@ -21,7 +21,7 @@ Once the Sender object has received the response, the file contents are decrypte
 Names of text files, both retrievable and not, are stored in a queue within the Sender object. So long as the queue is not empty, the Sender object will encrypt and send these file names to the Receiver object using the MBRC object. Once all of the filenames in the queue have been sent and responded to, the program finishes executing.
 
 
-### Description of Original Project
+## Description of Original Project
 
 Please note that, while this program is an adaptation of a previous project, all work uploaded to this repository (before any outside contributions that may come after the writing of this README file) are my own. The work done for the original program and the adaptations reflected in this program are all my own.
 
@@ -37,13 +37,7 @@ git clone https://github.com/lanemacdougall/secure-txt-file-content-retrieval.gi
 
 ## Usage
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+Run MBRC.java file
 
 ## Contributing
 Pull requests are welcome. Please see the "Planned Additions/Changes" section for any features that I plan to add or change in the future.
