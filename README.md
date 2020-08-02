@@ -3,8 +3,7 @@
 
 ## Overview
 
-Note: This is an adaptation of a homework project assigned in Texas Tech University's Secure Software Engineering course (CS 5332). 
-*See "Description of Original Project" for more details* 
+Note: This is an adaptation of a homework project assigned in Texas Tech University's Secure Software Engineering course (CS 5332). See "Description of Original Project" for more details. 
 
 Secure Text File Content Retrieval is a multi-threaded Java program implementing secure, synchronous communication between a Sender object and a Receiver object through a message buffer and response connector (MBRC) object, allowing for the secure retrieval of text file contents.
 
