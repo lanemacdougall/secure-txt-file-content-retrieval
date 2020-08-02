@@ -31,12 +31,11 @@ The patterns, tools, and concepts implemented and used in this original project 
 
 ## Download
 
-git clone https://github.com/lanemacdougall/secure-txt-file-content-retrieval.git
-
+git clone https://github.com/lanemacdougall/secure-txt-file-content-retrieval.git or download the zip file.
 
 ## Usage
 
-Run MBRC.java file
+Run the MBRC.java file.
 
 ## Contributing
 Pull requests are welcome. Please see the "Planned Additions/Changes" section for any features that I plan to add or change in the future.
