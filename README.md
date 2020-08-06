@@ -48,3 +48,8 @@ Allow for the user to enter filenames, rather than having the filenames hardcode
 Encrypt the text files, rather than their contents.
 
 Build a dynamic interface that allows for the user to better visualize what is happening in the program.
+
+
+## License
+
+Currency Converter is available under the [MIT license](https://github.com/lanemacdougall/secure-txt-file-content-retrieval/blob/master/LICENSE).
