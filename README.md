@@ -52,4 +52,4 @@ Build a dynamic interface that allows for the user to better visualize what is h
 
 ## License
 
-Currency Converter is available under the [MIT license](https://github.com/lanemacdougall/secure-txt-file-content-retrieval/blob/master/LICENSE).
+Secure Text File Content Retrieval is available under the [MIT license](https://github.com/lanemacdougall/secure-txt-file-content-retrieval/blob/master/LICENSE).
