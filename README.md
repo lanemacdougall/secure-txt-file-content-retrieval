@@ -37,7 +37,7 @@ git clone https://github.com/lanemacdougall/secure-txt-file-content-retrieval.gi
 
 ## Usage
 
-Run MBRC.main().The contents of (3) included text files should be written to the terminal, as well as (3) messages that indicate that a given file could not be found.
+Run MBRC.main()
 
 ### Expected output
 
