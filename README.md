@@ -3,7 +3,11 @@
 
 ## Overview
 
-Note: This is an adaptation of a homework project assigned in Texas Tech University's Secure Software Engineering course (CS 5332). See "Description of Original Project" for more details. 
+### Notes: 
+(1) This is an adaptation of a homework project assigned in Texas Tech University's Secure Software Engineering course (CS 5332). See "Description of Original Project" for more details. 
+
+(2) This program is intended to be a learning resource and is not interactive nor very useful on its own. However, it is a great source of information for anyone interested in multi-threaded programs, synchronous communication between threads, or message security. I want to provide others with the best resource possible, so please feel free to contribute in order to make this program a better learning tool.
+
 
 Secure Text File Content Retrieval is a multi-threaded Java program implementing secure, synchronous communication between a Sender object and a Receiver object through a message buffer and response connector (MBRC) object, allowing for the secure retrieval of text file contents.
 
@@ -35,7 +39,46 @@ git clone https://github.com/lanemacdougall/secure-txt-file-content-retrieval.gi
 
 ## Usage
 
-Run the MBRC.java file.
+Run MBRC.main().The contents of (3) included text files should be written to the terminal, as well as (3) messages that indicate that a given file could not be found.
+
+### Expected output
+
+Message integrity of secure_syllogism.txt has been verified.
+“I'm afraid that the following syllogism may be used by some in the future.
+
+Turing believes machines think
+Turing lies with men
+Therefore machines do not think
+
+Yours in distress,
+
+Alan”
+
+Message integrity of secure_ada.txt has been verified.
+“I never am really satisfied that I understand anything; 
+because, understand it well as I may, my comprehension can only be an infinitesimal fraction 
+of all I want to understand about the many connections and relations which occur to me, 
+how the matter in question was first thought of or arrived at…”
+
+- Ada Lovelace
+
+Message integrity of File_Not_Found.txt has been verified.
+Filename "computer.txt" Was Not Found.
+
+Message integrity of File_Not_Found_1.txt has been verified.
+Filename "world" Was Not Found.
+
+Message integrity of File_Not_Found_2.txt has been verified.
+Filename "hello" Was Not Found.
+
+Message integrity of secure_alan.txt has been verified.
+"This is the real secret of life — to be completely engaged with what you are doing in the here and now. And instead of calling it work, realize it is play."
+
+- Alan Watts
+
+
+Process finished with exit code 0
+
 
 ## Contributing
 Pull requests are welcome. Please see the "Planned Additions/Changes" section for any features that I plan to add or change in the future.
